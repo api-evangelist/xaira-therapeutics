@@ -49,3 +49,5 @@ common:
   url: security/xaira-therapeutics-domain-security.yml
 - type: Website
   url: https://xaira.com
+x-parent: xaira
+x-relationship: product
