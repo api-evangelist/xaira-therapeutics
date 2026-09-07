@@ -45,9 +45,17 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: WellKnown
+  url: well-known/xaira-therapeutics-well-known.yml
+- type: Blog
+  url: https://www.xaira.com/news-content
+- type: PrivacyPolicy
+  url: https://www.xaira.com/privacy-policy
+- type: TermsOfService
+  url: https://www.xaira.com/terms-of-use
+- type: GitHubOrganization
+  url: https://github.com/Xaira-Therapeutics
 - type: DomainSecurity
   url: security/xaira-therapeutics-domain-security.yml
 - type: Website
   url: https://xaira.com
-x-parent: xaira
-x-relationship: product
